@@ -10,7 +10,7 @@ function Header() {
             <IconButton>
                 <ProfileIcon fontSize='large' className='header_icon'/>
             </IconButton>
-            <img className='header_logo' src='https://seeklogo.com/images/T/tinder-logo-FAAE852EC0-seeklogo.com.png'/>
+            <img className='header_logo' alt='logo' src='https://seeklogo.com/images/T/tinder-logo-FAAE852EC0-seeklogo.com.png'/>
             <IconButton>
                 <Forum fontSize='large' className='header_icon'></Forum>
             </IconButton>
