@@ -6,7 +6,7 @@ function Card() {
     const [info,setInfo] = useState([]);
     useEffect(()=>{
         async function fetchData(){
-            const req = await axios.get('/cards');
+            const req = await axios.get('/card');
             setInfo(req.data);
         }
         fetchData();

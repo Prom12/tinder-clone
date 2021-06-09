@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const instance = axios.create({
-    baseURL: 'https://git.heroku.com/young-taiga-86471.git',
+    baseURL: 'https://young-taiga-86471.herokuapp.com',
 });
 
 export default instance;
