@@ -24,7 +24,7 @@ function Card() {
                 {info.map((info)=>(
                     <TinderCard 
                         className='swipe' 
-                        key={info.name} 
+                        key={info.id} 
                         preventSwipe={['up','down']} 
                         onSwipe={(dir)=>swiped(dir,info.name)}
                         onCardLeftScreen={()=>outOfFrame(info.name)}
